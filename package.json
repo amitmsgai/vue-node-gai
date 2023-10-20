@@ -1,0 +1,14 @@
+{
+  "name": "vuejs-nodejs-main",
+  "version": "1.0.0",
+  "description": "vuejs starter project with nodejs and mongodb",
+  "scripts": {
+    "start": "concurrently \"cd vue-starter && npm run dev\" \"cd backend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
